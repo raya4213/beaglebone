@@ -1,13 +1,14 @@
 /*The following program calls a function reverse string which returns 0 when successfully reversed, else returns a non zero value*/
 
 #include<stdio.h>
+#include "hw1.h"
 void main() //strarting the main function
 
 {
 	int length;                                   //length of the input string
 	char string[1000];                             //Initilization of a string of type char
 	char *input = string;                         //Initilization of a pointer of type char
-	
+        //#include "hw1.h"	
 	char reverse_string(char *, int);             //Initilization of a function reverse_string
 	
 	printf("Enter the string:\n");                

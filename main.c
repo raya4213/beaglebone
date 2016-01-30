@@ -2,7 +2,7 @@
 void main()
 {
  printf("Hello World\n");
-{
+
 	int length;                                   //length of the input string
 	char string[1000];                             //Initilization of a string of type char
 	char *input = string;                         //Initilization of a pointer of type char
@@ -15,5 +15,5 @@ void main()
 	//scanf("%d",&length);                          //get the length of the string
 	reverse_string(input ,length);                //calling the function reverse_string
 	//printf("The reversed string is:%s", input);
-}
+
 }
